@@ -4,7 +4,7 @@
 Projet de conteneurisation et deploiement d'une application web.
 
 
-## Auteurs
+## Contributeurs
 
 - Michelle SONG 21106878 ([@misoop](https://github.com/misoop))
 - Camelia BOUALI 21108238 ([@cmla16](https://github.com/cmla16))
@@ -14,7 +14,9 @@ Projet de conteneurisation et deploiement d'une application web.
 
 Pour démarrer l'application, éxécuter : 
 
-### `docker compose up`
+```bash
+docker compose up
+```
 
 Ou alors, éxécuter le fichier `script.sh` qui est fourni.
 
