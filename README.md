@@ -1,4 +1,7 @@
-# Projet de conteneurisation et deploiement d'une application web
+# Projet DevOps
+
+
+Projet de conteneurisation et deploiement d'une application web.
 
 
 ## Auteurs
@@ -13,7 +16,7 @@ Pour démarrer l'application, éxécuter :
 
 ### `docker compose up`
 
-Ou alors, éxécuter le fichier script.sh qui est fourni.
+Ou alors, éxécuter le fichier `script.sh` qui est fourni.
 
 Ouvrir http://localhost:5173 pour voir dans le navigateur.
 Pour accéder à l'API Strapi, ouvrir http://localhost:1337.
@@ -29,7 +32,7 @@ Il y a en tout 3 conteneurs permettant d'activer l'application :
 
 ## Demo
 
-Vous pouvez trouver le screencast présentant brièvement les codes et les différentes fonctionnalités de l'application dans le fichier screencast-final.mov
+Vous pouvez trouver le screencast présentant brièvement les codes et les différentes fonctionnalités de l'application dans le fichier `screencast-final.mov`.
 
 
 ## Sreenshots et logs
