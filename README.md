@@ -1,7 +1,7 @@
 # Projet DevOps
 
 
-Projet de conteneurisation et deploiement d'une application web.
+Projet de conteneurisation et déploiement d'une application web.
 
 
 ## Contributeurs
@@ -10,17 +10,29 @@ Projet de conteneurisation et deploiement d'une application web.
 - Camelia BOUALI 21108238 ([@cmla16](https://github.com/cmla16))
 
 
+## Prérequis
+
+Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
+
+- Node.js : Seules les versions [Active LTS et Maintenance LTS](https://nodejs.org/en/about/previous-releases) sont compatibles avec Strapi (actuellement v18 et v20)
+
+- Votre gestionnaire de paquets Node.js préféré :
+    - [npm](https://docs.npmjs.com/cli/v6/commands/npm-install) (v6 ou version ultérieure)
+    - yarn
+
+
+
 ## Script
 
-Pour démarrer l'application, éxécuter : 
+Pour démarrer l'application, exécuter : 
 
 ```bash
 docker compose up
 ```
 
-Ou alors, éxécuter le fichier `script.sh` qui est fourni.
+Ou alors, exécuter le fichier `script.sh` qui est fourni.
 
-Ouvrir http://localhost:5173 pour voir dans le navigateur.
+Ouvrir http://localhost:5173 pour visualiser dans le navigateur.
 Pour accéder à l'API Strapi, ouvrir http://localhost:1337.
 
 
