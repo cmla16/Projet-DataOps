@@ -8,6 +8,7 @@ Projet de conteneurisation et déploiement d'une application web.
 
 - Michelle SONG 21106878 ([@misoop](https://github.com/misoop))
 - Camelia BOUALI 21108238 ([@cmla16](https://github.com/cmla16))
+- Arthur ESCRIOU
 
 
 ## Prérequis
@@ -39,9 +40,9 @@ Pour accéder à l'API Strapi, ouvrir http://localhost:1337.
 ## Informations
 
 Il y a en tout 3 conteneurs permettant d'activer l'application :
-- postgres : contenant la base de données PosgreSQL qu'utilise notre projet Strapi
-- strapi : contenant le projet Strapi
-- strapi-frontend : contenant la partie front de l'application
+- **postgres** : contenant la base de données PosgreSQL qu'utilise notre projet Strapi, crée à paritr de l'image postgres du Docker Hub
+- **strapi** : contenant le projet Strapi, crée à partir du dossier `projet-dev`
+- **strapi-frontend** : contenant la partie front de l'application, crée à partir du dossier `opsci-strapi-fontend` par Arthur Escriou
 
 
 ## Demo
